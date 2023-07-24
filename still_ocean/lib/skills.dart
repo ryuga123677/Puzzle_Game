@@ -109,7 +109,7 @@ class _skillsState extends State<skills> {
                 ),
                 ),
                 RichText(text: TextSpan(
-                  children: <TextSpan>[ TextSpan(text: '                   - Postman ,APIs,Google map api',style: TextStyle(color:Colors.yellowAccent.shade700,fontFamily: 'Merienda',fontSize:18))]
+                  children: <TextSpan>[ TextSpan(text: '                   - Postman ,APIs, Google map api',style: TextStyle(color:Colors.yellowAccent.shade700,fontFamily: 'Merienda',fontSize:18))]
                 )),
                 SizedBox(height: 20,),
                 RichText(text: TextSpan(
