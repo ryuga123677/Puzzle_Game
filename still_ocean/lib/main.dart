@@ -23,8 +23,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
 
 
-      home:AnimatedSplashScreen(
-        splash: Text('WELCOME',style: TextStyle(color: Colors.blue,fontSize: 30),),
+      home:AnimatedSplashScreen(backgroundColor: Colors.black,
+
+        splash: Image.asset('images/calm.png',fit: BoxFit.cover,),
 
         nextScreen: mainmenu(),
         splashTransition: SplashTransition.slideTransition,

@@ -76,7 +76,7 @@ class _iqootestState extends State<iqootest> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Find Pair'),
+          title: Text('Find Pair',style: TextStyle(fontFamily: 'BungeeSpice'),),
           centerTitle: true,
         ),
         body:
