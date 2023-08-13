@@ -84,14 +84,14 @@ class _iqootestState extends State<iqootest> {
             children: [Row(
               children: [
                 Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.all(2.0),
                   child: InkWell(child: Container(
                     child: Image.asset(x),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
                     ),
-                    height: 120,
-                    width: 120,
+                    height: MediaQuery.of(context).size.height*.18,
+                    width: MediaQuery.of(context).size.width*.3,
                   ),
                     onTap: (){
                       displayresult();
@@ -146,14 +146,14 @@ class _iqootestState extends State<iqootest> {
                     },),
                 ),
                 Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.all(2.0),
                   child: InkWell(child: Container(
                     child: Image.asset(y),
                       decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
                     ),
-                    height: 120,
-                    width: 120,
+                    height: MediaQuery.of(context).size.height*.18,
+                    width: MediaQuery.of(context).size.width*.3,
                   ),
                       onTap: (){count++;
                       displayresult();
@@ -198,15 +198,15 @@ class _iqootestState extends State<iqootest> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.all(2.0),
                   child: InkWell(child: Container(
                     child: Image.asset(z),
                     decoration: BoxDecoration(
 
                       borderRadius: BorderRadius.circular(30),
                     ),
-                    height: 120,
-                    width: 120,
+                    height: MediaQuery.of(context).size.height*.18,
+                    width: MediaQuery.of(context).size.width*.3,
                   ),
                       onTap: (){count++;
                       displayresult();
@@ -246,15 +246,15 @@ class _iqootestState extends State<iqootest> {
               Row(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.all(2.0),
                     child: InkWell(child: Container(
                       child: Image.asset(m),
                       decoration: BoxDecoration(
 
                         borderRadius: BorderRadius.circular(30),
                       ),
-                      height:  120,
-                      width:  120,
+                      height:  MediaQuery.of(context).size.height*.18,
+                      width: MediaQuery.of(context).size.width*.3,
                     ),
                         onTap: (){count++;
                         displayresult();
@@ -289,14 +289,14 @@ class _iqootestState extends State<iqootest> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.all(2.0),
                     child: InkWell(child: Container(
                       child: Image.asset(n),
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(30),
                       ),
-                      height: 120,
-                      width:  120,
+                      height: MediaQuery.of(context).size.height*.18,
+                      width:  MediaQuery.of(context).size.width*.3,
                     ),
                         onTap: (){count++;
                         displayresult();
@@ -331,14 +331,14 @@ class _iqootestState extends State<iqootest> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.all(2.0),
                     child: InkWell(child: Container(
                       child: Image.asset(o),
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(30),
                       ),
-                      height:  120,
-                      width:  120,
+                      height: MediaQuery.of(context).size.height*.18,
+                      width: MediaQuery.of(context).size.width*.3,
                     ),
                         onTap: (){count++;
                         displayresult();
@@ -379,14 +379,14 @@ class _iqootestState extends State<iqootest> {
               Row(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.all(2.0),
                     child: InkWell(child: Container(
                       child: Image.asset(p),
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(30),
                       ),
-                      height: 120,
-                      width:  120,
+                      height: MediaQuery.of(context).size.height*.18,
+                      width: MediaQuery.of(context).size.width*.3,
                     ),
                         onTap: (){count++;
                         displayresult();
@@ -421,14 +421,14 @@ class _iqootestState extends State<iqootest> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.all(2.0),
                     child: InkWell(child: Container(
                       child: Image.asset(q),
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(30),
                       ),
-                      height:  120,
-                      width:  120,
+                      height:  MediaQuery.of(context).size.height*.18,
+                      width: MediaQuery.of(context).size.width*.3,
                     ),
                         onTap: (){count++;
                         displayresult();
@@ -463,14 +463,14 @@ class _iqootestState extends State<iqootest> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.all(2.0),
                     child: InkWell(child: Container(
                       child: Image.asset(r),
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(30),
                       ),
-                      height:  120,
-                      width:  120,
+                      height:  MediaQuery.of(context).size.height*.18,
+                      width: MediaQuery.of(context).size.width*.3,
                     ),
                         onTap: (){count++;
                         displayresult();
@@ -511,15 +511,15 @@ class _iqootestState extends State<iqootest> {
               Row(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.all(2.0),
                     child: InkWell(child: Container(
                       child: Image.asset(a),
                       decoration: BoxDecoration(
 
                         borderRadius: BorderRadius.circular(30),
                       ),
-                      height:  120,
-                      width:  120,
+                      height: MediaQuery.of(context).size.height*.18,
+                      width:  MediaQuery.of(context).size.width*.3,
                     ),
                         onTap: (){count++;
                         displayresult();
@@ -554,15 +554,15 @@ class _iqootestState extends State<iqootest> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.all(2.0),
                     child: InkWell(child: Container(
                       child: Image.asset(b),
 
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(30),
                       ),
-                      height: 120,
-                      width:  120,
+                      height: MediaQuery.of(context).size.height*.18,
+                      width:  MediaQuery.of(context).size.width*.3,
                     ),
                         onTap: (){count++;
                         displayresult();
@@ -597,15 +597,15 @@ class _iqootestState extends State<iqootest> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.all(2.0),
                     child: InkWell(child: Container(
                       child: Image.asset(d),
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(30),
 
                       ),
-                      height:  120,
-                      width:  120,
+                      height:  MediaQuery.of(context).size.height*.18,
+                      width:  MediaQuery.of(context).size.width*.3,
                     ),
                         onTap: (){count++;
                         displayresult();
@@ -649,11 +649,11 @@ class _iqootestState extends State<iqootest> {
                child: Text(result,style: TextStyle(fontSize: 20,color: Colors.red),),
 
                   ),
-              SizedBox(height: 20,),
+              SizedBox(height: 5,),
               Stack(
 
              children: [Padding(
-               padding: const EdgeInsets.symmetric(vertical: 40),
+               padding: const EdgeInsets.symmetric(vertical: 20),
                child: Text('   Result Out of 5',style: TextStyle(color: Colors.blue,fontSize: 20),),
              ),
                Card(color: Colors.tealAccent,
